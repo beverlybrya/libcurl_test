@@ -1,0 +1,22 @@
+﻿  libcurl_test.cpp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+libcurl.lib(schannel.c.obj) : error LNK2001: unresolved external symbol __imp__CertOpenStore@20
+libcurl.lib(schannel_verify.c.obj) : error LNK2001: unresolved external symbol __imp__CertOpenStore@20
+libcurl.lib(schannel.c.obj) : error LNK2001: unresolved external symbol __imp__CertCloseStore@8
+libcurl.lib(schannel_verify.c.obj) : error LNK2001: unresolved external symbol __imp__CertCloseStore@8
+libcurl.lib(schannel.c.obj) : error LNK2001: unresolved external symbol __imp__CertEnumCertificatesInStore@8
+libcurl.lib(schannel.c.obj) : error LNK2001: unresolved external symbol __imp__CertFindCertificateInStore@24
+libcurl.lib(schannel.c.obj) : error LNK2001: unresolved external symbol __imp__CertFreeCertificateContext@4
+libcurl.lib(schannel_verify.c.obj) : error LNK2001: unresolved external symbol __imp__CertFreeCertificateContext@4
+libcurl.lib(schannel.c.obj) : error LNK2001: unresolved external symbol __imp__CryptStringToBinaryW@28
+libcurl.lib(schannel.c.obj) : error LNK2001: unresolved external symbol __imp__PFXImportCertStore@12
+libcurl.lib(schannel_verify.c.obj) : error LNK2001: unresolved external symbol __imp__CryptDecodeObjectEx@32
+libcurl.lib(schannel_verify.c.obj) : error LNK2001: unresolved external symbol __imp__CertAddCertificateContextToStore@16
+libcurl.lib(schannel_verify.c.obj) : error LNK2001: unresolved external symbol __imp__CertFindExtension@12
+libcurl.lib(schannel_verify.c.obj) : error LNK2001: unresolved external symbol __imp__CertGetNameStringW@24
+libcurl.lib(schannel_verify.c.obj) : error LNK2001: unresolved external symbol __imp__CryptQueryObject@44
+libcurl.lib(schannel_verify.c.obj) : error LNK2001: unresolved external symbol __imp__CertCreateCertificateChainEngine@8
+libcurl.lib(schannel_verify.c.obj) : error LNK2001: unresolved external symbol __imp__CertFreeCertificateChainEngine@4
+libcurl.lib(schannel_verify.c.obj) : error LNK2001: unresolved external symbol __imp__CertGetCertificateChain@32
+libcurl.lib(schannel_verify.c.obj) : error LNK2001: unresolved external symbol __imp__CertFreeCertificateChain@4
+C:\Users\User\Desktop\dev\cpp\visualstudio_project\libcurl_test\Release\libcurl_test.exe : fatal error LNK1120: 16 unresolved externals
